@@ -107,6 +107,8 @@ body {
 
 .conteudo-secundario-descricao {
   font-family: var(--fonte-cabecalho);
+  font-size: 1.5rem;
+  font-weight: 300;
   color: var(--cor-fonte-principal);
   border-top: 0.025rem solid #fff2e7;
   padding-top: 3rem;
