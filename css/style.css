@@ -44,7 +44,7 @@ body {
 /* CONTEÚDO PRIMÁRIO */
 
 .conteudo {
-  border-top: 0.025rem solid var(--cor-fonte-principal);
+  border-top: 0.024rem solid var(--cor-fonte-principal);
   margin-bottom: 3rem;
 }
 
