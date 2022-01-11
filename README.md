@@ -22,7 +22,7 @@ Lading Page feita utilizando apenas HTML5 e CSS3. O projeto apresentado neste re
 O projeto também pode ser encontrado [neste link](https://rildodev.github.io/landingPage/)
 
 <p align="center">
-  <img alt="Demonstração" src="images/desktop.jpg" width="800px" />
+  <img alt="Demonstração" src="images/desktop.jpg" width="900px" />
 </p>
 
 <h2 id="about-me">👦 Sobre mim</h2>
