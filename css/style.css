@@ -1,0 +1,134 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  --cor-fonte-principal: #fff2e7;
+  --fonte-cabecalho: 'Righteous', cursive;
+  --fonte-description: 'Sarala', sans-serif;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.cabecalho-imagem {
+  height: 4.5rem;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.cabecalho-menu-item {
+  font-family: var(--fonte-description);
+  color: var(--cor-fonte-principal);
+  font-weight: 400;
+  font-size: 1.123rem;
+}
+
+/* CONTEÚDO PRIMÁRIO */
+
+.conteudo {
+  border-top: 0.025rem solid var(--cor-fonte-principal);
+  margin-bottom: 3rem;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conteudo-principal-titulo {
+  font-family: var(--fonte-cabecalho);
+  color: var(--cor-fonte-principal);
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.conteudo-principal-subtitulo {
+  color: var(--cor-fonte-principal);
+  font-family: var(--fonte-description);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.conteudo-principal-botao {
+  font-family: var(--fonte-description);
+  font-size: 1.5rem;
+  color: #2f2325;
+  width: 11.5625rem;
+  height: 4.1875rem;
+  background-color: #ecd6c4;
+  border-radius: 1.25rem;
+  box-shadow: 0.25rem 0.3125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-principal-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+  transition: 0.5s;
+}
+
+.conteudo-principal-imagem {
+  width: 26.875rem;
+}
+
+/* CONTEÚDO SECUNDÁRIO */
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.conteudo-secundario-descricao {
+  font-family: var(--fonte-cabecalho);
+  color: var(--cor-fonte-principal);
+  border-top: 0.025rem solid #fff2e7;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: var(--fonte-description);
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: var(--cor-fonte-principal);
+}
+
+/* RODAPÉ */
+
+.rodape {
+  padding: 2rem;
+  border-top: 0.025rem solid var(--cor-fonte-principal);
+}
+
+.rodape-imagem {
+  height: 3rem;
+  display: block;
+  margin: 0 auto;
+}
